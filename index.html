@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEGG Servicios en Ingeniería</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header id="header">
+        <div class="container navbar">
+            <div class="logo">
+                <h1>TEGG <span>Ingeniería</span></h1>
+            </div>
+            <nav id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#contact">Cotización</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h2>Exploramos con Precisión, Seguridad y Compromiso</h2>
+            <p>Especialistas en campañas de exploración del subsuelo e ingeniería aplicada para tus proyectos de
+                construcción.</p>
+            <a href="#contact" class="btn-primary">Cotiza tu Campaña de Exploración</a>
+        </div>
+    </section>
+
+    <!-- Sobre la Empresa -->
+    <section id="about" class="section-padding">
+        <div class="container about-container">
+            <div class="about-text">
+                <h3>Sobre Nosotros</h3>
+                <h2>TEGG Servicios en Ingeniería</h2>
+                <p>Somos una empresa dedicada a brindar soluciones integrales en el ámbito de la ingeniería y
+                    construcción. Nos enfocamos en el estudio detallado y la exploración del subsuelo para garantizar
+                    cimientos seguros y proyectos exitosos.</p>
+                <p>Nuestro equipo de profesionales utiliza tecnología de vanguardia y maquinaria especializada para
+                    enfrentar cualquier reto, siempre priorizando la seguridad y el compromiso con la sociedad.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1541888081622-152e9351057e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Ingeniero en obra">
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services" class="section-padding bg-light">
+        <div class="container text-center">
+            <h3>Nuestras Especialidades</h3>
+            <h2>Servicios de Ingeniería</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-search-location"></i>
+                    <h4>Campañas de Exploración</h4>
+                    <p>Análisis y exploración detallada del subsuelo para proyectos arquitectónicos y de
+                        infraestructura.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hard-hat"></i>
+                    <h4>Seguridad Estructural</h4>
+                    <p>Evaluaciones técnicas para construir con precisión y garantizar la viabilidad del terreno.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h4>Perforación y Maquinaria</h4>
+                    <p>Operación de equipo pesado y maquinaria especializada para trabajos en el subsuelo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Imágenes -->
+    <section id="gallery" class="section-padding">
+        <div class="container text-center">
+            <h3>Nuestro Trabajo</h3>
+            <h2>Galería de Proyectos</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356f58?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Proyecto de ingeniería 1">
+                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Proyecto de ingeniería 2">
+                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Proyecto de ingeniería 3">
+                <img src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Proyecto de ingeniería 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Cotización / Contacto -->
+    <section id="contact" class="section-padding bg-dark text-white">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Contáctanos y Cotiza</h2>
+                <p>¿Listo para iniciar tu campaña de exploración? Déjanos tus datos y un ingeniero se pondrá en contacto
+                    contigo a la brevedad.</p>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Servicios disponibles en campo</span>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-instagram"></i>
+                    <span>@tegg_servicios</span>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="quoteForm">
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <input type="text" placeholder="Asunto / Tipo de proyecto" required>
+                    <textarea rows="5" placeholder="Cuéntanos los detalles de tu cotización..." required></textarea>
+                    <button type="submit" class="btn-primary">Enviar Cotización</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>TEGG</h2>
+                <p>Servicios en Ingeniería</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TEGG Servicios en Ingeniería. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
